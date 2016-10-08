@@ -43,4 +43,4 @@ project.properties
 build/
 
 # For 3rd party key removal
-app/build.gradle
+#app/build.gradle
