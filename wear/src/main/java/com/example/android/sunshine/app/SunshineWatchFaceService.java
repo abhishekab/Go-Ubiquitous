@@ -209,7 +209,7 @@ public class SunshineWatchFaceService extends CanvasWatchFaceService {
             mMinutePaint.setTextSize(textSize);
             mColonPaint.setTextSize(textSize);
             mHighPaint.setTextSize(textSizeTemp);
-            mLowPaint.setTextSize(textSizeTemp);
+            mLowPaint.setTextSize(textSizeTemp- resources.getDimension(R.dimen.high_low_diff));
 
             mColonWidth = mColonPaint.measureText(COLON_STRING);
         }
